@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: yellow;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  background-color: black;
+  color: yellow;
+}
+
+.home_one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  color: yellow;
+  height: 500px;
+  background: url(images/space.jpg);
+}
+
+.home_one_text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body {
+  background: url(images/space.jpg);
+}
+
+label {
+  color: yellow;
+}
+
+.footer {
+  color:yellow;
+  display: flex;
+  justify-content: center;
+}
+
+.inputAndDisplay {
+  margin: 10px;
+}
+
+#planetResults, #peopleResults, #filmResults, #speciesResults, #starshipsResults, #vehiclesResults {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+
+
+.button {
+  display: block;
+  border: 2px solid yellow;
+  border-radius: 30px;
+  border-color: yellow;
+  text-align: center;
+  width: 60%;
+}
+
+.button:link,
+.button:visited {
+  color: black;
+  text-decoration: none;
+  margin-top: 15px;
+
+  font-size: 22px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  h2 {
+    font-size: 50px;
+  }
+
+  .button {
+    width: 30%;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  .home_one {
+    height: 700px;
+  }
+  .footer {
+    height: 135px;
+  }
+
+  label {
+    font-size: 25px;
+  }
+
+  .page_two {
+    display: flex;
+    justify-content: center;
+  }
+}
